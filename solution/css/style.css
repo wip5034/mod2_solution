@@ -1,7 +1,5 @@
-<style>
-
-* {
-    box-sizing: border-box;
+<style> * {
+  box-sizing: border-box;
 }
 
 body {
@@ -10,7 +8,7 @@ body {
   color: #000000
 }
 
-h1 { 
+h1 {
   font-size: 175%;
   text-align: center;
 }
@@ -21,8 +19,8 @@ h1 {
   margin-left: 2.3%;
   border: 3px solid black;
   float: left;
-  position:relative;
-    margin-top:20px;
+  position: relative;
+  margin-top: 20px;
 }
 
 #chickentitle {
@@ -35,7 +33,6 @@ h1 {
   position: relative;
   left: 12px;
   top: -32px;
-  
 }
 
 #chickencontent {
@@ -50,8 +47,8 @@ h1 {
   padding: 10px;
   border: 3px solid black;
   float: left;
-  margin-left:2.5%;
-    margin-top:20px;
+  margin-left: 2.5%;
+  margin-top: 20px;
 }
 
 #beeftitle {
@@ -65,7 +62,6 @@ h1 {
   position: relative;
   left: 12px;
   top: -32px;
-  
 }
 
 #beefcontent {
@@ -80,8 +76,8 @@ h1 {
   padding: 10px;
   border: 3px solid black;
   float: left;
-  margin-left:2.5%;
-  margin-top:20px;
+  margin-left: 2.5%;
+  margin-top: 20px;
 }
 
 #sushititle {
@@ -94,7 +90,6 @@ h1 {
   position: relative;
   left: 12px;
   top: -32px;
-  
 }
 
 #sushicontent {
@@ -104,50 +99,49 @@ h1 {
   top: -10px;
 }
 
-/***** desktop only *****/ 
-    
-  @media screen and (min-width:992px) {
-  
-    #chickenbox { 
-        width: 30%;
-                }
-    #beefbox { 
-        width: 30%;
-                }
-    #sushibox { 
-        width: 30%;
-                }
+
+/***** desktop only *****/
+
+@media screen and (min-width:992px) {
+  #chickenbox {
+    width: 27%;
+  }
+  #beefbox {
+    width: 27%;
+  }
+  #sushibox {
+    width: 27%;
+  }
 }
+
 
 /***** tablet only *****/
 
-    
-  @media screen and (min-width:768px) and (max-width:991px) {
-  
-    #chickenbox { 
-        width: 450px;
-                }
-    #beefbox { 
-        width: 450px;
-                }
-    #sushibox { 
-        width: 95%;
-                }
+@media screen and (min-width:768px) and (max-width:991px) {
+  #chickenbox {
+    width: 400px;
+  }
+  #beefbox {
+    width: 400px;
+  }
+  #sushibox {
+    width: 850px;
+  }
 }
 
-/***** mobile only *****/ 
-    
-  @media screen and (max-width:767px) {
-  
-    #chickenbox { 
-        width: 700px;
-                }
-    #beefbox { 
-        width: 700px;
-                }
-    #sushibox { 
-        width: 700px;
-                }
+
+/***** mobile only *****/
+
+@media screen and (max-width:767px) {
+  #chickenbox {
+    width: 300px;
+  }
+  #beefbox {
+    width: 300px;
+  }
+  #sushibox {
+    width: 300px;
+  }
 }
 
 </style>
